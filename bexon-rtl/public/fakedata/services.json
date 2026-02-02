@@ -1,0 +1,383 @@
+[
+	{
+		"id": 1,
+		"title": "تطوير استراتيجيات العمل",
+		"shortTitle": "استراتيجية العمل",
+		"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+		"img": "/images/service/service-1.webp",
+		"img2": "/images/service/service-2.webp",
+		"img3": "/images/service/service-6.webp",
+		"img4": "/images/service/h6-service-1.webp",
+		"img5": "/images/service/h9-service-1.webp",
+		"bgImg": "/images/service/service-1.webp",
+		"bgImg2": "/images/service/h3-service-1.webp",
+		"iconName": "tji-service-1",
+		"svg": "/images/icons/service-1.svg",
+
+		"desc": "من خلال الجمع بين التحليلات القائمة على البيانات والأساليب المبتكرة، نعمل معك عن قرب لتطوير حلول مخصصة.",
+		"shortDesc": "تأكد من أن موقعك يبدو رائعاً على جميع الأجهزة، بتصميمات تتكيف بسلاسة مع مختلف أحجام الشاشات.",
+		"desc1": "يعرض Brolly استعراضاً مضحكاً بالنبرة البريطانية التقليدية، مليئاً بالتعابير الشعبية والطرافة، مما يضيف أجواءً مرحة ومشوقة.",
+		"desc2": "في المدارس العامة تحدث بعض المواقف المزعجة والحوارات الجدلية، مع الكثير من التعابير الطريفة التي تعكس الروح الإنجليزية.",
+		"desc3": "من خلال الجمع بين التحليلات المعتمدة على البيانات والأساليب المبتكرة للأعمال.",
+		"totalProject": "10 مشاريع",
+
+		"process": {
+			"title": "عملية تقديم الخدمات",
+			"shortTitle": "عمل",
+			"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+			"img": "/img/services/service-details.jpg",
+			"img2": "/img/icons/services-10-icons-2.svg",
+			"img3": "/images/service/service-6.webp",
+			"img4": "/images/service/h6-service-1.webp",
+			"img5": "/images/service/h9-service-1.webp",
+			"bgImg": "/images/service/service-1.webp",
+			"bgImg2": "/images/service/h3-service-1.webp",
+			"iconName": "flaticon-ux-design ",
+			"svg": "/images/icons/service-1.svg",
+
+			"desc": "في بيئة الأعمال المتغيرة اليوم، يكمن النجاح في التخطيط الاستراتيجي والتنفيذ التشغيلي المتقن.",
+			"processItems": [
+				"إعادة ابتكار أعمالك للأفضل",
+				"ريادة أولى ابتكارات الإنترنت",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم"
+			]
+		}
+	},
+
+	{
+		"id": 2,
+		"title": "حلول تجربة العملاء",
+		"shortTitle": "تجربة العملاء",
+		"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+		"img": "/images/service/service-5.webp",
+		"img2": "/images/service/service-3.webp",
+		"img3": "/images/service/service-1.webp",
+		"img4": "/images/service/h6-service-2.webp",
+		"img5": "/images/service/h9-service-2.webp",
+		"bgImg": "/images/service/service-5.webp",
+		"bgImg2": "/images/service/h3-service-2.webp",
+		"iconName": "tji-service-2",
+		"svg": "/images/icons/service-2.svg",
+
+		"desc": "حلول تجربة العملاء مصممة لتحسين كل نقطة تفاعل ضمن رحلة عميلك بدءاً من أول تواصل معه.",
+		"shortDesc": "إعداد أنظمة إدارة محتوى سهلة الاستخدام مثل WordPress أو حلول مخصصة لتمكين العملاء من إدارة محتواهم بسهولة.",
+		"desc1": "يعرض Brolly مواقف طريفة بالطابع الشعبي البريطاني، مليئة بالتعبيرات الكوميدية التي تعطي إحساساً بالمرح.",
+		"desc2": "في المدارس العامة تظهر مواقف غير متوقعة ونقاشات ساخرة، مع استخدام واسع لتعابير بريطانية دارجة.",
+		"desc3": "تطوير رحلات عميل مخصصة لزيادة الرضا والولاء.",
+		"totalProject": "11 مشروعاً",
+
+		"process": {
+			"title": "عملية تقديم الخدمات",
+			"shortTitle": "عمل",
+			"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+			"img": "/img/services/service-details.jpg",
+			"img2": "/img/icons/services-10-icons-1.svg",
+			"img3": "/images/service/service-6.webp",
+			"img4": "/images/service/h6-service-1.webp",
+			"img5": "/images/service/h9-service-1.webp",
+			"bgImg": "/images/service/service-1.webp",
+			"bgImg2": "/images/service/h3-service-1.webp",
+			"iconName": "flaticon-design",
+			"svg": "/images/icons/service-2.svg",
+
+			"desc": "في بيئة الأعمال المتغيرة اليوم، يكمن النجاح في التخطيط الاستراتيجي والتنفيذ التشغيلي المتقن.",
+			"processItems": [
+				"إعادة ابتكار أعمالك للأفضل",
+				"ريادة أولى ابتكارات الإنترنت",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم"
+			]
+		}
+	},
+
+	{
+		"id": 3,
+		"title": "الاستدامة واستشارات ESG",
+		"shortTitle": "استشارات ESG",
+		"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+		"img": "/images/service/service-6.webp",
+		"img2": "/images/service/service-4.webp",
+		"img3": "/images/service/service-7.webp",
+		"img4": "/images/service/h6-service-3.webp",
+		"img5": "/images/service/h9-service-3.webp",
+		"bgImg": "/images/service/service-6.webp",
+		"bgImg2": "/images/service/h3-service-3.webp",
+		"iconName": "tji-service-3",
+		"svg": "/images/icons/service-3.svg",
+
+		"desc": "نقدّم استراتيجيات مخصصة لا تساهم فقط في خلق قيمة طويلة المدى، بل تبني أيضاً الثقة مع أصحاب المصلحة والمستثمرين.",
+		"shortDesc": "بناء ودمج واجهات API لربط المواقع بالتطبيقات الخارجية لتعزيز الأداء والوظائف.",
+		"desc1": "محتوى طريف بلهجة بريطانية يعكس روح الفكاهة الشعبية.",
+		"desc2": "مواقف دراسية مليئة بالنقاشات الساخرة والحوارات الطريفة.",
+		"desc3": "تقديم استراتيجيات مخصصة لخلق قيمة طويلة المدى وبناء الثقة.",
+		"totalProject": "15 مشروعاً",
+
+		"process": {
+			"title": "عملية تقديم الخدمات",
+			"shortTitle": "عمل",
+			"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+			"img": "/img/services/service-details.jpg",
+			"img2": "/img/icons/services-10-icons-1.svg",
+			"img3": "/images/service/service-6.webp",
+			"img4": "/images/service/h6-service-1.webp",
+			"img5": "/images/service/h9-service-1.webp",
+			"bgImg": "/images/service/service-1.webp",
+			"bgImg2": "/images/service/h3-service-1.webp",
+			"iconName": "flaticon-design",
+			"svg": "/images/icons/service-3.svg",
+
+			"desc": "في بيئة الأعمال المتغيرة اليوم، يكمن النجاح في التخطيط الاستراتيجي والتنفيذ التشغيلي المتقن.",
+			"processItems": [
+				"إعادة ابتكار أعمالك للأفضل",
+				"ريادة أولى ابتكارات الإنترنت",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم"
+			]
+		}
+	},
+
+	{
+		"id": 4,
+		"title": "برامج التدريب والتطوير",
+		"shortTitle": "برامج التدريب",
+		"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+		"img": "/images/service/service-7.webp",
+		"img2": "/images/service/service-6.webp",
+		"img3": "/images/service/service-6.webp",
+		"img4": "/images/service/h6-service-1.webp",
+		"img5": "/images/service/service-6.webp",
+		"bgImg": "/images/service/service-7.webp",
+		"bgImg2": "/images/service/h3-service-4.webp",
+		"iconName": "tji-service-4",
+		"svg": "/images/icons/service-1.svg",
+
+		"desc": "برامج التدريب والتطوير مصممة لتمكين الموظفين بالمهارات والمعرفة والأدوات التي يحتاجونها.",
+		"shortDesc": "تحديث المواقع القديمة بتصاميم حديثة وجذابة تتماشى مع أهداف العلامة التجارية وتوقعات المستخدمين.",
+		"desc1": "محتوى طريف بلهجة بريطانية يعكس روح الدعابة التقليدية.",
+		"desc2": "مواقف دراسية ممتعة تتضمن الكثير من التعابير الساخرة والطريفة.",
+		"desc3": "برامج تطوير مصممة لتمكين الموظفين بالمهارات والمعرفة.",
+		"totalProject": "10 مشاريع",
+
+		"process": {
+			"title": "عملية تقديم الخدمات",
+			"shortTitle": "عمل",
+			"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+			"img": "/img/services/service-details.jpg",
+			"img2": "/img/icons/services-10-icons-1.svg",
+			"img3": "/images/service/service-6.webp",
+			"img4": "/images/service/h6-service-1.webp",
+			"img5": "/images/service/h9-service-1.webp",
+			"bgImg": "/images/service/service-1.webp",
+			"bgImg2": "/images/service/h3-service-1.webp",
+			"iconName": "flaticon-design",
+			"svg": "/images/icons/service-1.svg",
+
+			"desc": "في بيئة الأعمال المتغيرة اليوم، يكمن النجاح في التخطيط الاستراتيجي والتنفيذ التشغيلي المتقن.",
+			"processItems": [
+				"إعادة ابتكار أعمالك للأفضل",
+				"ريادة أولى ابتكارات الإنترنت",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم"
+			]
+		}
+	},
+
+	{
+		"id": 5,
+		"title": "الدعم والصيانة التقنية",
+		"shortTitle": "الدعم التقني",
+		"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+		"img": "/images/service/service-1.webp",
+		"img2": "/img/icons/services-10-icons-1.svg",
+		"img3": "/images/service/service-6.webp",
+		"img4": "/images/service/h6-service-2.webp",
+		"img5": "/images/service/h9-service-1.webp",
+		"bgImg": "/images/service/service-1.webp",
+		"bgImg2": "/images/service/h3-service-1.webp",
+		"iconName": "tji-service-5",
+		"svg": "/images/icons/service-1.svg",
+
+		"desc": "في بيئة الأعمال المتغيرة اليوم، يكمن النجاح في التخطيط الاستراتيجي والتنفيذ التشغيلي المتقن.",
+		"shortDesc": "تحديث المواقع القديمة بتصاميم حديثة تتماشى مع أهداف العلامة التجارية.",
+		"desc1": "محتوى طريف بطابع بريطاني مليء بالمفردات الشعبية.",
+		"desc2": "مواقف مدرسية كوميدية ذات طابع ساخر.",
+		"desc3": "من خلال الجمع بين البيانات والأساليب المبتكرة.",
+		"totalProject": "10 مشاريع",
+
+		"process": {
+			"title": "عملية تقديم الخدمات",
+			"shortTitle": "عمل",
+			"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+			"img": "/img/services/service-details.jpg",
+			"img2": "/img/icons/services-10-icons-1.svg",
+			"img3": "/images/service/service-6.webp",
+			"img4": "/images/service/h6-service-1.webp",
+			"img5": "/images/service/h9-service-1.webp",
+			"bgImg": "/images/service/service-1.webp",
+			"bgImg2": "/images/service/h3-service-1.webp",
+			"iconName": "flaticon-design",
+			"svg": "/images/icons/service-1.svg",
+
+			"desc": "في بيئة الأعمال المتغيرة اليوم، يكمن النجاح في التخطيط الاستراتيجي والتنفيذ التشغيلي المتقن.",
+			"processItems": [
+				"إعادة ابتكار أعمالك للأفضل",
+				"ريادة أولى ابتكارات الإنترنت",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم"
+			]
+		}
+	},
+
+	{
+		"id": 6,
+		"title": "استراتيجية التسويق والحملات",
+		"shortTitle": "استراتيجية التسويق",
+		"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+		"img": "/images/service/service-5.webp",
+		"img2": "/img/icons/services-10-icons-1.svg",
+		"img3": "/images/service/service-6.webp",
+		"img4": "/images/service/h6-service-3.webp",
+		"img5": "/images/service/h9-service-1.webp",
+		"bgImg": "/images/service/service-5.webp",
+		"bgImg2": "/images/service/h3-service-1.webp",
+		"iconName": "tji-service-6",
+		"svg": "/images/icons/service-1.svg",
+
+		"desc": "في بيئة الأعمال المتغيرة اليوم، يكمن النجاح في التخطيط الاستراتيجي والتنفيذ التشغيلي المتقن.",
+		"shortDesc": "تحديث المواقع القديمة بتصاميم حديثة جذابة تتماشى مع أهداف العلامة التجارية.",
+		"desc1": "محتوى طريف بلهجة بريطانية.",
+		"desc2": "مواقف ساخرة مليئة بالتعابير الشعبية.",
+		"desc3": "من خلال الجمع بين البيانات والأساليب المبتكرة.",
+		"totalProject": "10 مشاريع",
+
+		"process": {
+			"title": "عملية تقديم الخدمات",
+			"shortTitle": "عمل",
+			"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+			"img": "/img/services/service-details.jpg",
+			"img2": "/img/icons/services-10-icons-1.svg",
+			"img3": "/images/service/service-6.webp",
+			"img4": "/images/service/h6-service-1.webp",
+			"img5": "/images/service/h9-service-1.webp",
+			"bgImg": "/images/service/service-1.webp",
+			"bgImg2": "/images/service/h3-service-1.webp",
+			"iconName": "flaticon-design",
+			"svg": "/images/icons/service-1.svg",
+
+			"desc": "في بيئة الأعمال المتغيرة اليوم، يكمن النجاح في التخطيط الاستراتيجي والتنفيذ التشغيلي المتقن.",
+			"processItems": [
+				"إعادة ابتكار أعمالك للأفضل",
+				"ريادة أولى ابتكارات الإنترنت",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم"
+			]
+		}
+	},
+
+	{
+		"id": 7,
+		"title": "تطوير استراتيجيات العمل",
+		"shortTitle": "استراتيجية العمل",
+		"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+		"img": "/images/service/service-7.webp",
+		"img2": "/img/icons/services-10-icons-3.svg",
+		"img3": "/images/service/service-6.webp",
+		"img4": "/images/service/h6-service-1.webp",
+		"img5": "/images/service/h9-service-1.webp",
+		"bgImg": "/images/service/service-7.webp",
+		"bgImg2": "/images/service/h3-service-2.webp",
+		"iconName": "tji-service-1",
+		"svg": "/images/icons/service-2.svg",
+
+		"desc": "في بيئة الأعمال المتغيرة اليوم، يكمن النجاح في التخطيط الاستراتيجي والتنفيذ التشغيلي المتقن.",
+		"shortDesc": "إعداد أنظمة إدارة محتوى سهلة الاستخدام لتمكين العملاء من إدارة محتواهم بسهولة.",
+		"desc1": "محتوى بريطاني فكاهي مليء بالتعابير الشعبية.",
+		"desc2": "مواقف طريفة داخل المدارس البريطانية.",
+		"desc3": "من خلال الجمع بين البيانات والأساليب المبتكرة.",
+		"totalProject": "11 مشروعاً",
+
+		"process": {
+			"title": "عملية تقديم الخدمات",
+			"shortTitle": "عمل",
+			"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+			"img": "/img/services/service-details.jpg",
+			"img2": "/img/icons/services-10-icons-1.svg",
+			"img3": "/images/service/service-6.webp",
+			"img4": "/images/service/h6-service-1.webp",
+			"img5": "/images/service/h9-service-1.webp",
+			"bgImg": "/images/service/service-1.webp",
+			"bgImg2": "/images/service/h3-service-1.webp",
+			"iconName": "flaticon-design",
+			"svg": "/images/icons/service-2.svg",
+
+			"desc": "في بيئة الأعمال المتغيرة اليوم، يكمن النجاح في التخطيط الاستراتيجي والتنفيذ التشغيلي المتقن.",
+			"processItems": [
+				"إعادة ابتكار أعمالك للأفضل",
+				"ريادة أولى ابتكارات الإنترنت",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم",
+				"ريادة أولى ابتكارات عالم التصميم"
+			]
+		}
+	},
+	{
+		"id": 8,
+		"title": "حلول تجربة العملاء",
+		"shortTitle": "تجربة العملاء",
+		"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+		"img": "/images/service/service-1.webp",
+		"img2": "/img/icons/services-10-icons-1.svg",
+		"img3": "/images/service/service-6.webp",
+		"img4": "/images/service/h6-service-1.webp",
+		"img5": "/images/service/h9-service-1.webp",
+		"bgImg": "/images/service/service-1.webp",
+		"bgImg2": "/images/service/h3-service-3.webp",
+		"iconName": "tji-service-2",
+		"svg": "/images/icons/service-3.svg",
+
+		"desc": "في بيئة الأعمال الديناميكية اليوم، يكمن النجاح في التخطيط الاستراتيجي وتنفيذ العمليات التجارية بنجاح.",
+		"shortDesc": "بناء ودمج واجهات برمجة التطبيقات لربط المواقع بالتطبيقات الخارجية، مما يعزز الوظائف والأداء.",
+		"desc1": "عرض بَرولي وإظهار مهاراتك بطريقة ممتعة، قليل من الدعابة والتفاعل الاجتماعي.",
+		"desc2": "في المدرسة العامة، بعض الأحداث الغريبة والمواقف الطريفة، مع تجربة متنوعة ومميزة.",
+		"desc3": "من خلال مزيج من الرؤى المستندة إلى البيانات والنهج المبتكرة للأعمال.",
+		"totalProject": "15 مشروعًا",
+		"process": {
+			"title": "عملية الخدمات",
+			"shortTitle": "أعمال",
+			"titleLarge": "التخطيط الاستراتيجي والتنفيذ في العملية الشاملة لصياغة الأهداف",
+			"img": "/img/services/service-details.jpg",
+			"img2": "/img/icons/services-10-icons-1.svg",
+			"img3": "/images/service/service-6.webp",
+			"img4": "/images/service/h6-service-1.webp",
+			"img5": "/images/service/h9-service-1.webp",
+			"bgImg": "/images/service/service-1.webp",
+			"bgImg2": "/images/service/h3-service-1.webp",
+			"iconName": "flaticon-design",
+			"svg": "/images/icons/service-3.svg",
+
+			"desc": "في بيئة الأعمال الديناميكية اليوم، يكمن النجاح في التخطيط الاستراتيجي وتنفيذ العمليات التجارية بنجاح.",
+			"processItems": [
+				"إعادة ابتكار أعمالك لتصبح أفضل",
+				"ريادة أول الإنترنت",
+				"ريادة أول تصميم في العالم",
+				"ريادة أول تصميم في العالم",
+				"ريادة أول تصميم في العالم",
+				"ريادة أول تصميم في العالم"
+			]
+		}
+	}
+]
