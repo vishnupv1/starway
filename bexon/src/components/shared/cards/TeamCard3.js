@@ -6,7 +6,7 @@ const TeamCard3 = ({ teamMember, idx }) => {
 		id,
 		name,
 		desig,
-		img = "/images/team/team-1.webp",
+		img = "/images/team/talk.webp",
 	} = teamMember || {};
 	return (
 		<div className="col-lg-3 col-sm-6  h8-team-item-wrapper">

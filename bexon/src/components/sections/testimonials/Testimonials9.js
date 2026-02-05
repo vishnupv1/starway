@@ -36,7 +36,7 @@ const Testimonials9 = () => {
 								className="testimonial-img wow fadeInUpBig"
 								data-wow-delay=".3s"
 							>
-								<img src="/images/testimonial/h9-testimonial-img.webp" alt="" />
+								<img src="/images/testimonial/loading.webp" alt="" />
 							</div>
 							<div className="shape-icon wow fadeIn" data-wow-delay=".5s">
 								<img src="/images/shape/big-icon.png" alt="" />

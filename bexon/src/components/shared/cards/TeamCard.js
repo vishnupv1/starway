@@ -5,7 +5,7 @@ const TeamCard = ({ teamMember }) => {
 		id,
 		name,
 		desig,
-		img = "/images/team/team-1.webp",
+		img = "/images/team/talk.webp",
 	} = teamMember || {};
 	return (
 		<div className="team-item left-swipe">

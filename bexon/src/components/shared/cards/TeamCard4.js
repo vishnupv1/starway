@@ -5,7 +5,7 @@ const TeamCard4 = ({ teamMember, idx }) => {
 		id,
 		name,
 		desig,
-		img = "/images/team/team-1.webp",
+		img = "/images/team/talk.webp",
 	} = teamMember || {};
 	return (
 		<div className="team-item wow fadeInUp" data-wow-delay=".3s">
