@@ -32,8 +32,8 @@ const headingFont = Mona_Sans({
 });
 
 export const metadata = {
-	title: "Bexon - Corporate Business React NextJs Template",
-	description: "Bexon - Corporate Business React NextJs Template",
+	title: "Starwaylink Services LLC - Digital Marketing Agency",
+	description: "Starwaylink Services LLC is a digital marketing agency that provides a wide range of services to help businesses grow online.",
 };
 
 export default function RootLayout({ children }) {
