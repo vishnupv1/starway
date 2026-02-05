@@ -8,10 +8,10 @@ import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import getTeamMembers from "@/libs/getTeamMembers";
 import { notFound } from "next/navigation";
-const items = getTeamMembers();
 
 export default async function TeamDetails({ params }) {
 	const { id } = await params;
+	const items = getTeamMembers();
 
 	const isExistItem = items?.find(({ id: id1 }) => id1 === parseInt(id));
 	if (!isExistItem) {
@@ -38,6 +38,16 @@ export default async function TeamDetails({ params }) {
 		</div>
 	);
 }
+
 export async function generateStaticParams() {
-	return items?.map(({ id }) => ({ id: id.toString() }));
+	try {
+		const items = getTeamMembers();
+		if (!items || !Array.isArray(items)) {
+			return [];
+		}
+		return items.map(({ id }) => ({ id: id.toString() }));
+	} catch (error) {
+		console.error("Error generating static params for team:", error);
+		return [];
+	}
 }

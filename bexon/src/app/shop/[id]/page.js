@@ -9,9 +9,10 @@ import CartContextProvider from "@/context_api/CartContext";
 import WishlistContextProvider from "@/context_api/WshlistContext";
 import getProducts from "@/libs/getProducts";
 import { notFound } from "next/navigation";
-const items = getProducts();
+
 export default async function ProductDetails({ params }) {
 	const { id } = await params;
+	const items = getProducts();
 	const isExistItem = items?.find(({ id: id1 }) => id1 === parseInt(id));
 	if (!isExistItem) {
 		notFound();
@@ -42,5 +43,14 @@ export default async function ProductDetails({ params }) {
 }
 
 export async function generateStaticParams() {
-	return items?.map(({ id }) => ({ id: id.toString() }));
+	try {
+		const items = getProducts();
+		if (!items || !Array.isArray(items)) {
+			return [];
+		}
+		return items.map(({ id }) => ({ id: id.toString() }));
+	} catch (error) {
+		console.error("Error generating static params for shop:", error);
+		return [];
+	}
 }

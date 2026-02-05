@@ -7,10 +7,10 @@ import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import getBlogs from "@/libs/getBlogs";
 import { notFound } from "next/navigation";
-const items = getBlogs();
 
 export default async function BlogDetails({ params }) {
 	const { id } = await params;
+	const items = getBlogs();
 	const isExistItem = items?.find(({ id: id1 }) => id1 === parseInt(id));
 	if (!isExistItem) {
 		notFound();
@@ -36,5 +36,14 @@ export default async function BlogDetails({ params }) {
 }
 
 export async function generateStaticParams() {
-	return items?.map(({ id }) => ({ id: id.toString() }));
+	try {
+		const items = getBlogs();
+		if (!items || !Array.isArray(items)) {
+			return [];
+		}
+		return items.map(({ id }) => ({ id: id.toString() }));
+	} catch (error) {
+		console.error("Error generating static params for blogs:", error);
+		return [];
+	}
 }

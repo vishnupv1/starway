@@ -7,10 +7,10 @@ import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import getALlServices from "@/libs/getALlServices";
 import { notFound } from "next/navigation";
-const items = getALlServices();
 
 export default async function ServiceDetails({ params }) {
 	const { id } = await params;
+	const items = getALlServices();
 
 	const isExistItem = items?.find(({ id: id1 }) => id1 === parseInt(id));
 	if (!isExistItem) {
@@ -36,6 +36,16 @@ export default async function ServiceDetails({ params }) {
 		</div>
 	);
 }
+
 export async function generateStaticParams() {
-	return items?.map(({ id }) => ({ id: id.toString() }));
+	try {
+		const items = getALlServices();
+		if (!items || !Array.isArray(items)) {
+			return [];
+		}
+		return items.map(({ id }) => ({ id: id.toString() }));
+	} catch (error) {
+		console.error("Error generating static params for services:", error);
+		return [];
+	}
 }
