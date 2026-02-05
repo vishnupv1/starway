@@ -29,8 +29,8 @@ const About9 = () => {
 									className="sec-title title-highlight wow fadeInUp"
 									data-wow-delay=".3s"
 								>
-									Transforming Customer Experiences Through Strategic
-									Partnerships and Innovative Solutions.
+									Driving Digital Growth Through Strategic Marketing
+									Solutions and Data-Driven Results.
 								</h2>
 							</div>
 							<div className="row">
@@ -80,21 +80,22 @@ const About9 = () => {
 										</div>
 										<p className="desc wow fadeInUp" data-wow-delay=".4s">
 											Recognized by industry leaders, our award-winning team
-											has a proven record of delivering exceptional customer
-											experience solutions that drive measurable results and
-											long-term success for our partners.
+											has a proven record of delivering exceptional digital
+											marketing solutions that drive measurable results,
+											increase online visibility, and generate sustainable
+											growth for our clients.
 										</p>
 										<div className="h9-about-funfact h10-about-funfact">
 											<div className="countup-item">
-												<FunfactSingle currentValue={20} symbol={"M"} />
+												<FunfactSingle currentValue={500} symbol={"+"} />
 												<span className="count-text">
-													Customers Served Worldwide with exceptional experiences.
+													Successful Digital Marketing Projects Completed.
 												</span>
 											</div>
 											<div className="countup-item">
-												<FunfactSingle currentValue={8.5} symbol={"X"} />
+												<FunfactSingle currentValue={3.5} symbol={"X"} />
 												<span className="count-text">
-													Average Customer Satisfaction improvement rate.
+													Average ROI Improvement for Our Clients.
 												</span>
 											</div>
 										</div>

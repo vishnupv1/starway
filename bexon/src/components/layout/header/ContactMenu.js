@@ -66,14 +66,14 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 								</div>
 								<div className="contact-item">
 									<span className="subtitle">Email</span>
-									<Link className="contact-link" href="mailto:info@bexon.com">
-										info@bexon.com
+									<Link className="contact-link" href="mailto:">
+										
 									</Link>
 								</div>
 								<div className="contact-item">
 									<span className="subtitle">Location</span>
 									<span className="contact-link">
-										993 Renner Burg, West Rond, MT 94251-030
+										Sharjah Media City (Shams Free Zone), Business park in Al Bataeh, United Arab Emirates
 									</span>
 								</div>
 							</div>

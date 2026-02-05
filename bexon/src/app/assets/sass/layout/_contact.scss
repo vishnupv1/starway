@@ -256,8 +256,15 @@ START: Contact CSS
 			background-color: var(--tj-color-common-white);
 			text-align: center;
 			border-radius: 12px;
+			align-items: center;
+			justify-content: center;
+			min-height: 340px;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
 			@media #{$sm, $md} {
 				padding: 25px;
+				min-height: 200px;
 			}
 			p {
 				margin-bottom: 0;

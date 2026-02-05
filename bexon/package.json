@@ -14,9 +14,11 @@
 		"not op_mini all"
 	],
 	"dependencies": {
+		"@emailjs/browser": "^4.4.1",
 		"@gsap/react": "^2.1.2",
 		"bootstrap": "^5.3.7",
 		"chart.js": "^4.5.0",
+		"emailjs": "^5.0.0",
 		"glightbox": "^3.3.1",
 		"gsap": "^3.13.0",
 		"imagesloaded": "^5.0.0",

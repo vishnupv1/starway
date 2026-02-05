@@ -133,11 +133,11 @@ const Footer = () => {
 											</Link>
 										</li>
 										<li>
-											<Link href="mailto:info@bexon.com">
+											<Link href="mailto:">
 												<span className="icon">
 													<i className="tji-envelop-2"></i>
 												</span>
-												<span className="text">info@bexon.com</span>
+												<span className="text"></span>
 											</Link>
 										</li>
 									</ul>

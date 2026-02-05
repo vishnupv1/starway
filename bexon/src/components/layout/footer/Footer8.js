@@ -69,12 +69,12 @@ const Footer8 = () => {
 								<h5 className="title">Our Office</h5>
 								<div className="footer-contact-info">
 									<div className="contact-item">
-										<span>993 Renner Burg, West Rond, MT 94251-030, USA.</span>
+										<span>Sharjah Media City (Shams Free Zone), Business park in Al Bataeh, United Arab Emirates</span>
 									</div>
 									<div className="contact-item">
 										<Link href="tel:10095447818">P: +1 (009) 544-7818</Link>
-										<Link href="mailto:support@bexon.com">
-											M: support@bexon.com
+										<Link href="mailto:starwaylinkservices@gmail.com">
+											M: starwaylinkservices@gmail.com
 										</Link>
 									</div>
 									<div className="contact-item">

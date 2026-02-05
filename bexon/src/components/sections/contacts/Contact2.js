@@ -15,10 +15,10 @@ const Contact2 = () => {
 								<div className="location-indicator loc-1">
 									<div className="location-tooltip">
 										<span>Head office:</span>
-										<p>993 Renner Burg, West Rond, MT 94251-030, USA.</p>
+										<p>Sharjah Media City (Shams Free Zone), Business park in Al Bataeh, United Arab Emirates</p>
 										<Link href="tel:10095447818">P: +1 (009) 544-7818</Link>
-										<Link href="mailto:support@bexon.com">
-											M: support@bexon.com
+										<Link href="mailto:starwaylinkservices@gmail.com">
+											M: starwaylinkservices@gmail.com
 										</Link>
 									</div>
 								</div>
@@ -27,8 +27,8 @@ const Contact2 = () => {
 										<span>Regional office:</span>
 										<p>Hessisch Lichtenau 37235, Kassel, Germany.</p>
 										<Link href="tel:10098801810">P: +1 (009) 880-1810</Link>
-										<Link href="mailto:support@bexon.com">
-											M: support@bexon.com
+										<Link href="mailto:starwaylinkservices@gmail.com">
+											M: starwaylinkservices@gmail.com
 										</Link>
 									</div>
 								</div>
@@ -37,8 +37,8 @@ const Contact2 = () => {
 										<span>Regional office:</span>
 										<p>32 Altamira, State of Pará, Brazil.</p>
 										<Link href="tel:10095447818">P: +1 (009) 544-7818</Link>
-										<Link href="mailto:support@bexon.com">
-											M: support@bexon.com
+										<Link href="mailto:starwaylinkservices@gmail.com">
+											M: starwaylinkservices@gmail.com
 										</Link>
 									</div>
 								</div>
