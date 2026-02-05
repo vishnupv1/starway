@@ -5,7 +5,7 @@ const HeroInner = ({ title, text, breadcrums = [] }) => {
 	return (
 		<section
 			className="tj-page-header section-gap-x"
-			style={{ backgroundImage: `url('/images/bg/blog.png')` }}
+			style={{ backgroundImage: `url('/images/bg/blog.webp')` }}
 		>
 			<div className="container">
 				<div className="row">
