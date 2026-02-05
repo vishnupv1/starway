@@ -61,7 +61,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 								<div className="contact-item">
 									<span className="subtitle">Phone</span>
 									<Link className="contact-link" href="tel:10095447818">
-										+1 (009) 544-7818
+										+971585993858
 									</Link>
 								</div>
 								<div className="contact-item">

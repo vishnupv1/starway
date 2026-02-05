@@ -129,7 +129,7 @@ const Footer7 = () => {
 												<span className="icon">
 													<i className="tji-phone-2"></i>
 												</span>
-												<span className="text">+1 (009) 544-7818</span>
+												<span className="text">+971585993858</span>
 											</Link>
 										</li>
 										<li>

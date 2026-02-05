@@ -104,7 +104,7 @@ const Footer6 = () => {
 										<span>Sharjah Media City (Shams Free Zone), Business park in Al Bataeh, United Arab Emirates</span>
 									</div>
 									<div className="contact-item">
-										<Link href="tel:10095447818">P: +1 (009) 544-7818</Link>
+										<Link href="tel:10095447818">P: +971585993858</Link>
 										<Link href="mailto:starwaylinkservices@gmail.com">
 											M: starwaylinkservices@gmail.com
 										</Link>
