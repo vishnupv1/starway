@@ -1,23 +1,3 @@
 {
-	"version": 2,
-	"builds": [
-		{
-			"src": "bexon/package.json",
-			"use": "@vercel/next",
-			"config": {
-				"distDir": ".next"
-			}
-		}
-	],
-	"outputDirectory": "bexon/.next",
-	"framework": "nextjs",
-	"installCommand": "cd bexon && npm install",
-	"buildCommand": "cd bexon && npm run build",
-	"devCommand": "cd bexon && npm run dev",
-	"rewrites": [
-		{
-			"source": "/(.*)",
-			"destination": "/bexon/$1"
-		}
-	]
+	"framework": "nextjs"
 }
