@@ -5,7 +5,7 @@ const Cta3 = () => {
 		<section className="h9-cta-section section-gap-x">
 			<div
 				className="cta-bg"
-				style={{ backgroundImage: "url('/images/cta/future.png')" }}
+				style={{ backgroundImage: "url('/images/cta/future.webp')" }}
 			></div>
 			<div className="container">
 				<div className="row">
