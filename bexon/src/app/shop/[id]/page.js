@@ -12,8 +12,20 @@ import { notFound } from "next/navigation";
 
 export default async function ProductDetails({ params }) {
 	const { id } = await params;
+	
+	// Validate id parameter
+	if (!id || isNaN(parseInt(id))) {
+		notFound();
+	}
+	
 	const items = getProducts();
-	const isExistItem = items?.find(({ id: id1 }) => id1 === parseInt(id));
+	
+	// Validate items array exists and is not empty
+	if (!items || !Array.isArray(items) || items.length === 0) {
+		notFound();
+	}
+
+	const isExistItem = items.find(({ id: id1 }) => id1 === parseInt(id));
 	if (!isExistItem) {
 		notFound();
 	}
@@ -45,10 +57,16 @@ export default async function ProductDetails({ params }) {
 export async function generateStaticParams() {
 	try {
 		const items = getProducts();
-		if (!items || !Array.isArray(items)) {
+		
+		// Validate items array exists and is not empty
+		if (!items || !Array.isArray(items) || items.length === 0) {
 			return [];
 		}
-		return items.map(({ id }) => ({ id: id.toString() }));
+		
+		// Only return params for items that have valid IDs
+		return items
+			.filter(({ id }) => id != null && !isNaN(parseInt(id)))
+			.map(({ id }) => ({ id: id.toString() }));
 	} catch (error) {
 		console.error("Error generating static params for shop:", error);
 		return [];
