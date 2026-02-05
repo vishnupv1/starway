@@ -171,7 +171,7 @@ const Choose2 = () => {
 						<div
 							className="choose-box h9-choose-box h9-choose-bg right-swipe"
 							style={{
-								backgroundImage: "url('/images/hero/contact.png')",
+								backgroundImage: "url('/images/hero/contact.webp')",
 							}}
 						>
 							<div className="choose-content">

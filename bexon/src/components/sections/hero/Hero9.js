@@ -16,7 +16,7 @@ const Hero9 = () => {
 			>
 				<div
 					className="h9-hero-bg-image"
-					style={{ backgroundImage: "url('/images/hero/home_horizontal.jpeg')" }}
+					style={{ backgroundImage: "url('/images/hero/home_horizontal.webp')" }}
 				></div>
 				<div className="h9-hero-item-wrapper">
 					<div className="h9-hero-content">
