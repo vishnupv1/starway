@@ -21,12 +21,7 @@ const ServiceCard10 = ({ service, idx, lastItemIdx }) => {
 					<h4 className="title">
 						<Link href={`/services/${id}`}>{title}</Link>
 					</h4>
-					<p className="desc">
-						Recognize that exceptional customer experiences are at the heart of
-						every successful business. Our Customer Experience Solutions are
-						crafted to help you transform every interaction your customers have
-						with your brand busin.
-					</p>
+					<p className="desc">{desc3}</p>
 				</div>
 				<Link href={`/services/${id}`} className="h9-service-nav">
 					<i className="tji-arrow-right-long"></i>

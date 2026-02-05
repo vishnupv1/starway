@@ -7,7 +7,7 @@ const MarqueeSlider2 = ({ type }) => {
 	const items = [
 		"SEO",
 		"Social Media",
-		"PPC Advertising",
+		"Google My Business",
 		"Content Marketing",
 		"Web Design",
 		"Brand Strategy",
@@ -17,7 +17,7 @@ const MarqueeSlider2 = ({ type }) => {
 		"Digital Strategy",
 		"SEO",
 		"Social Media",
-		"PPC Advertising",
+		"Google My Business",
 		"Content Marketing",
 	];
 
