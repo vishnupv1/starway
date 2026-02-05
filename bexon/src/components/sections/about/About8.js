@@ -30,7 +30,7 @@ const About8 = () => {
 								<div className="about-img overflow-hidden">
 									<img
 										data-speed=".8"
-										src="/images/about/growth.png"
+										src="/images/about/growth.webp"
 										alt=""
 									/>
 								</div>
