@@ -16,9 +16,9 @@ const Contact2 = () => {
 									<div className="location-tooltip">
 										<span>Head office:</span>
 										<p>Sharjah Media City (Shams Free Zone), Business park in Al Bataeh, United Arab Emirates</p>
-										<Link href="tel:10095447818">P: +971585993858</Link>
+										<Link href="tel:10095447818"> +971585993858</Link>
 										<Link href="mailto:starwaylinkservices@gmail.com">
-											M: starwaylinkservices@gmail.com
+											starwaylinkservices@gmail.com
 										</Link>
 									</div>
 								</div>
@@ -26,9 +26,9 @@ const Contact2 = () => {
 									<div className="location-tooltip">
 										<span>Regional office:</span>
 										<p>Hessisch Lichtenau 37235, Kassel, Germany.</p>
-										<Link href="tel:10098801810">P: +1 (009) 880-1810</Link>
+										<Link href="tel:10095447818"> +971585993858</Link>
 										<Link href="mailto:starwaylinkservices@gmail.com">
-											M: starwaylinkservices@gmail.com
+											starwaylinkservices@gmail.com
 										</Link>
 									</div>
 								</div>
@@ -36,9 +36,9 @@ const Contact2 = () => {
 									<div className="location-tooltip">
 										<span>Regional office:</span>
 										<p>32 Altamira, State of Pará, Brazil.</p>
-										<Link href="tel:10095447818">P: +971585993858</Link>
+										<Link href="tel:10095447818"> +971585993858</Link>
 										<Link href="mailto:starwaylinkservices@gmail.com">
-											M: starwaylinkservices@gmail.com
+											starwaylinkservices@gmail.com
 										</Link>
 									</div>
 								</div>
