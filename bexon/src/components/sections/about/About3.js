@@ -21,25 +21,25 @@ const About3 = ({ type }) => {
 							</div>
 							<div className={`box-area ${type === 2 ? "style-2" : ""}`}>
 								<div className="progress-box wow fadeInUp" data-wow-delay=".3s">
-									<h4 className="title">Business Progress</h4>
+									<h4 className="title">Customer Success Metrics</h4>
 									<ul className="tj-progress-list">
 										<li>
-											<h6 className="tj-progress-title">Revenue</h6>
+											<h6 className="tj-progress-title">Customer Satisfaction</h6>
 											<div className="tj-progress">
-												<span className="tj-progress-percent">82%</span>
+												<span className="tj-progress-percent">95%</span>
 												<div
 													className="tj-progress-bar"
-													data-percent="82"
+													data-percent="95"
 												></div>
 											</div>
 										</li>
 										<li>
-											<h6 className="tj-progress-title">Satisfaction</h6>
+											<h6 className="tj-progress-title">Experience Improvement</h6>
 											<div className="tj-progress">
-												<span className="tj-progress-percent">90%</span>
+												<span className="tj-progress-percent">88%</span>
 												<div
 													className="tj-progress-bar"
-													data-percent="90"
+													data-percent="88"
 												></div>
 											</div>
 										</li>
@@ -57,11 +57,11 @@ const About3 = ({ type }) => {
 								<h2 className="sec-title title-anim">
 									{type === 2 ? (
 										<>
-											Driving Innovation and Excellence for Sustainable
-											Corporate Success <span>Worldwide.</span>
+											Transforming Customer Experiences Through Innovation
+											and Strategic Solutions <span>Worldwide.</span>
 										</>
 									) : (
-										"Driving Innovation and Excellence for Sustainable Corporate Success Worldwide."
+										"Transforming Customer Experiences Through Innovation and Strategic Solutions Worldwide."
 									)}
 								</h2>
 							</div>
@@ -73,18 +73,19 @@ const About3 = ({ type }) => {
 							>
 								<h4 className="title">Our Mission</h4>
 								<p className="desc">
-									our mission is empower businesses through innovate best
-									solution, exceptional service.
+									Our mission is to empower businesses by transforming every
+									customer interaction into meaningful experiences that drive
+									loyalty, satisfaction, and sustainable growth.
 								</p>
 								<ul className="list-items">
 									<li>
-										<i className="tji-list"></i>Innovation & Excellence
+										<i className="tji-list"></i>Customer-Centric Excellence
 									</li>
 									<li>
-										<i className="tji-list"></i>Exceptional Customer
+										<i className="tji-list"></i>Data-Driven Solutions
 									</li>
 									<li>
-										<i className="tji-list"></i>Business Growth
+										<i className="tji-list"></i>Seamless Experiences
 									</li>
 								</ul>
 							</div>
@@ -94,18 +95,19 @@ const About3 = ({ type }) => {
 							>
 								<h4 className="title">Our Vision</h4>
 								<p className="desc">
-									Our vision is to become a global leader in providing
-									transformative business solutions.
+									Our vision is to become the global leader in customer
+									experience solutions, setting new standards for how businesses
+									connect with and delight their customers.
 								</p>
 								<ul className="list-items">
 									<li>
-										<i className="tji-list"></i>Global Leadership
+										<i className="tji-list"></i>Experience Leadership
 									</li>
 									<li>
-										<i className="tji-list"></i>Transformative Impact
+										<i className="tji-list"></i>Customer Journey Excellence
 									</li>
 									<li>
-										<i className="tji-list"></i>Sustainable Success
+										<i className="tji-list"></i>Long-Term Partnerships
 									</li>
 								</ul>
 							</div>

@@ -17,9 +17,9 @@ const About8 = () => {
 								className="sec-title title-highlight wow fadeInUp"
 								data-wow-delay=".3s"
 							>
-								<span>Our Stories</span> on Begins Passion Driven by Purpose,
-								and Fueled by a Relentless Pursuit of Results and Client Real
-								Success.
+								<span>Our Story</span> Begins with Passion Driven by Purpose,
+								and Fueled by a Relentless Pursuit of Excellence and Real
+								Client Success.
 							</h2>
 						</div>
 						<div className="h9-about-area">
@@ -30,7 +30,7 @@ const About8 = () => {
 								<div className="about-img overflow-hidden">
 									<img
 										data-speed=".8"
-										src="/images/about/h9-about.webp"
+										src="/images/about/growth.png"
 										alt=""
 									/>
 								</div>
@@ -39,8 +39,8 @@ const About8 = () => {
 										className="author-info wow fadeInUp"
 										data-wow-delay=".3s"
 									>
-										<h4 className="title">Eade Marren</h4>
-										<span className="designation">CEO & Founder</span>
+										<h4 className="title">Dedicatedly</h4>
+										<span className="designation">Works for growth</span>
 									</div>
 								</div>
 							</div>

@@ -29,8 +29,8 @@ const About9 = () => {
 									className="sec-title title-highlight wow fadeInUp"
 									data-wow-delay=".3s"
 								>
-									Powering Innovation Through Partnerships with our Brands and
-									Many Companies.
+									Transforming Customer Experiences Through Strategic
+									Partnerships and Innovative Solutions.
 								</h2>
 							</div>
 							<div className="row">
@@ -79,20 +79,22 @@ const About9 = () => {
 											</div>
 										</div>
 										<p className="desc wow fadeInUp" data-wow-delay=".4s">
-											Recognized by industryaward leaders, award winning team
-											has be a proven record.
+											Recognized by industry leaders, our award-winning team
+											has a proven record of delivering exceptional customer
+											experience solutions that drive measurable results and
+											long-term success for our partners.
 										</p>
 										<div className="h9-about-funfact h10-about-funfact">
 											<div className="countup-item">
 												<FunfactSingle currentValue={20} symbol={"M"} />
 												<span className="count-text">
-													Reach Worldwide empower dreams everywhere.
+													Customers Served Worldwide with exceptional experiences.
 												</span>
 											</div>
 											<div className="countup-item">
 												<FunfactSingle currentValue={8.5} symbol={"X"} />
 												<span className="count-text">
-													Faster Growth starts smart solutions today.
+													Average Customer Satisfaction improvement rate.
 												</span>
 											</div>
 										</div>

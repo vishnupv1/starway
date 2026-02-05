@@ -18,75 +18,10 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 		<div className="menu-area d-none d-lg-inline-flex align-items-center">
 			<nav id="mobile-menu" className="mainmenu">
 				<ul>
-					<li
-						className={`has-dropdown ${
-							homeNav?.isActive ? "current-menu-ancestor" : ""
-						}`}
-					>
-						<Link href={homeNav?.path ? homeNav?.path : "#"}>
+					<li className={homeNav?.isActive ? "current-menu-ancestor" : ""}>
+						<Link href="/">
 							{homeNav?.name}
 						</Link>
-						<ul className="sub-menu header__mega-menu mega-menu  ">
-							<li>
-								<div className="mega-menu-wrapper">
-									<div className="container-fluid gap-60-25">
-										<div className="row">
-											{homeNav?.submenu?.length
-												? homeNav?.submenu?.map((item, idx) => (
-														<div key={idx} className="col-xl-3 col-lg-3 col-12">
-															<div
-																className={`tj-demo-thumb ${
-																	item?.isComming ? "coming" : ""
-																}`}
-															>
-																<div className="image">
-																	<Image
-																		src={
-																			item?.img
-																				? item?.img
-																				: "/images/header/demo/home-1.webp"
-																		}
-																		alt=""
-																		width={570}
-																		height={434}
-																	/>
-																	{item?.badge ? (
-																		<span className="tj-demo-badge tj-zoom-in-out-anim">
-																			{item?.badge}
-																		</span>
-																	) : (
-																		""
-																	)}
-																	{!item?.isComming ? (
-																		<div className="tj-demo-button">
-																			<ButtonPrimary
-																				text={"View demo"}
-																				url={item?.path}
-																				className={"header_btn"}
-																			/>
-																		</div>
-																	) : (
-																		""
-																	)}
-																</div>
-																<h6 className="tj-demo-title">
-																	{item?.isComming ? (
-																		item?.name
-																	) : (
-																		<Link href={item?.path ? item?.path : "#"}>
-																			{item?.name}
-																		</Link>
-																	)}
-																</h6>
-															</div>
-														</div>
-												  ))
-												: ""}
-										</div>
-									</div>
-								</div>
-							</li>
-						</ul>
 					</li>
 					<li
 						className={`has-dropdown ${

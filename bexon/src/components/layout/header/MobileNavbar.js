@@ -29,64 +29,11 @@ const MobileNavbar = () => {
 					</Link>
 					<nav className="mean-nav">
 						<ul>
-							<MobileMenuItem
-								text={homeNav?.name}
-								url={homeNav?.path ? homeNav?.path : "#"}
-								submenuClass={"header__mega-menu mega-menu"}
-							>
-								<li>
-									<div className="mega-menu-wrapper">
-										<div className="container-fluid gap-60-25">
-											<div className="row">
-												{homeNav?.submenu?.length
-													? homeNav?.submenu?.map((item, idx) => (
-															<div
-																key={idx}
-																className={`col-xl-3 col-lg-3 col-12 ${
-																	item?.isComming ? "d-none" : ""
-																}`}
-															>
-																<div className="tj-demo-thumb">
-																	<div className="image">
-																		<Image
-																			src={
-																				item?.img
-																					? item?.img
-																					: "/images/header/demo/home-1.webp"
-																			}
-																			alt=""
-																			width={570}
-																			height={434}
-																		/>
-																		{item?.badge ? (
-																			<span className="tj-demo-badge tj-zoom-in-out-anim">
-																				{item?.badge}
-																			</span>
-																		) : (
-																			""
-																		)}
-																		<div className="tj-demo-button">
-																			<ButtonPrimary
-																				text={"View demo"}
-																				url={item?.path}
-																				className={"header_btn"}
-																			/>
-																		</div>
-																	</div>
-																	<h6 className="tj-demo-title">
-																		<Link href={item?.path ? item?.path : "#"}>
-																			{item?.name}
-																		</Link>
-																	</h6>
-																</div>
-															</div>
-													  ))
-													: ""}
-											</div>
-										</div>
-									</div>
-								</li>
-							</MobileMenuItem>
+							<li>
+								<Link href="/">
+									{homeNav?.name}
+								</Link>
+							</li>
 							<MobileMenuItem
 								text={pagesNav?.name}
 								url={pagesNav?.path}

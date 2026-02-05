@@ -1,20 +1,37 @@
+"use client";
+
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import Link from "next/link";
+import { useState } from "react";
 
 const Hero9 = () => {
+	const [isLightHero, setIsLightHero] = useState(false);
+
 	return (
 		<section className="h9-hero">
-			<div className="h9-hero-inner">
+			<div
+				className={`h9-hero-inner${
+					isLightHero ? " h9-hero-inner--light" : " h9-hero-inner--dark"
+				}`}
+			>
 				<div
 					className="h9-hero-bg-image"
-					style={{ backgroundImage: "url('/images/hero/h9-hero-bg.webp')" }}
+					style={{ backgroundImage: "url('/images/hero/home_horizontal.jpeg')" }}
 				></div>
 				<div className="h9-hero-item-wrapper">
 					<div className="h9-hero-content">
 						<h1 className="h9-hero-title text-anim">
-							Empower{" "}
-							<span className="wow fadeInLeft" data-wow-delay="0.3s"></span>{" "}
-							Your Business.
+							Grow{" "}
+							<span
+								className="wow fadeInLeft"
+								data-wow-delay="0.3s"
+								onClick={() => setIsLightHero((prev) => !prev)}
+								role="button"
+								aria-label={
+									isLightHero ? "Switch to dark hero background" : "Switch to light hero background"
+								}
+							></span>{" "}
+							Your Digital Presence.
 						</h1>
 						<div className="h9-hero-desc-area">
 							<h4 className="title wow fadeInUp" data-wow-delay="0.5s">
@@ -22,10 +39,11 @@ const Hero9 = () => {
 							</h4>
 							<div className="desc-inner wow fadeInUp" data-wow-delay="0.7s">
 								<p className="desc">
-									Recognized by the industry leaders, of our award-winning team
-									has are <Link href="/portfolios">Proven record</Link> of
-									delivering excellence across an projects. Recognized by the
-									industry leaders, of our award.
+									We’re a performance-driven digital marketing agency helping
+									brands grow with{" "}
+									<Link href="/portfolios">proven campaigns</Link> in SEO, paid
+									ads, and social media. From strategy to execution, we focus on
+									clicks that actually convert.
 								</p>
 								<ButtonPrimary text={"Get Started"} url={"/contact"} />
 							</div>
@@ -57,12 +75,12 @@ const Hero9 = () => {
 							</div>
 						</div>
 					</div>
-					<div
+					{/* <div
 						className="h9-hero-img  img-parallax wow fadeInUp"
 						data-wow-delay="0.9s"
 					>
-						<img src="/images/hero/h9-hero-img.webp" alt="" />
-					</div>
+						<img src="/images/hero/pro_home.png" alt="" />
+					</div> */}
 				</div>
 			</div>
 			<div
@@ -71,8 +89,10 @@ const Hero9 = () => {
 			>
 				<img
 					className="tj-anim-move-var-big"
-					src="/images/shape/h7-hero-blur-1.png"
+					src="/images/hero/bubble.png"
 					alt=""
+					style={{ opacity: 0.2	}}
+
 				/>
 			</div>
 			<div
@@ -81,8 +101,9 @@ const Hero9 = () => {
 			>
 				<img
 					className="tj-anim-move-var-big-reverse"
-					src="/images/shape/h7-hero-blur-2.png"
+					src="/images/hero/bubble.png"
 					alt=""
+					style={{ opacity: 0.2 }}
 				/>
 			</div>
 		</section>

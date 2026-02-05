@@ -4,18 +4,18 @@ import FeatureCard from "@/components/shared/cards/FeatureCard";
 const Features = ({ type }) => {
 	const features = [
 		{
-			title: "Innovative Solutions",
-			desc: "We stay ahead of the curve, leveraging cutting-edge technologies and strategies to keep  you competitive in a marketplace.",
+			title: "Customer Journey Optimization",
+			desc: "We map and optimize every touchpoint of your customer journey, ensuring seamless experiences that drive engagement, loyalty, and satisfaction at every interaction. From first contact to post-purchase support, we create cohesive experiences that delight customers.",
 			icon: "tji-innovative",
 		},
 		{
-			title: "Award-Winning Expertise",
-			desc: "Recognized by industry leaders, our award-winning team has a proven record of delivering  excellence across projects.",
+			title: "Data-Driven Insights",
+			desc: "Leverage advanced analytics and customer data to understand behavior patterns, identify opportunities, and make informed decisions that enhance customer satisfaction. Our insights help you anticipate needs and exceed expectations.",
 			icon: "tji-award",
 		},
 		{
-			title: "Dedicated Support",
-			desc: "Our team is always available to address your concerns, providing quick and effective solution to keep your business.",
+			title: "Personalized Experiences",
+			desc: "Create tailored customer experiences that resonate with your audience, building stronger relationships and increasing customer lifetime value. We help you deliver the right message, at the right time, through the right channel.",
 			icon: "tji-support",
 		},
 	];
@@ -28,26 +28,26 @@ const Features = ({ type }) => {
 						{type == 2 ? (
 							<div className="sec-heading-wrap">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-									<i className="tji-box"></i>Choose the Best
+									<i className="tji-box"></i>Why Choose Us
 								</span>
 								<div className="heading-wrap-content">
 									<div className="sec-heading">
 										<h2 className="sec-title title-anim">
-											Empowering Business with <span>Expertise.</span>
+											Elevating Customer Experiences with <span>Expert Solutions.</span>
 										</h2>
 									</div>
 									<div className="btn-wrap wow fadeInUp" data-wow-delay=".6s">
-										<ButtonPrimary text="Request a Call" url="/contact" />
+										<ButtonPrimary text="Get Started Today" url="/contact" />
 									</div>
 								</div>
 							</div>
 						) : (
 							<div className="sec-heading text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-									<i className="tji-box"></i>Choose the Best
+									<i className="tji-box"></i>Why Choose Us
 								</span>
 								<h2 className="sec-title title-anim">
-									Empowering Business with <span>Expertise.</span>
+									Elevating Customer Experiences with <span>Expert Solutions.</span>
 								</h2>
 							</div>
 						)}

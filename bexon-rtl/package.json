@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "next dev --turbopack",
 		"build": "next build --turbopack",
+		"build:watch": "nodemon",
 		"start": "next start"
 	},
 	"browserslist": [
@@ -33,6 +34,7 @@
 		"wow.js": "^1.2.2"
 	},
 	"devDependencies": {
+		"nodemon": "^3.1.0",
 		"sass": "^1.94.2"
 	}
 }

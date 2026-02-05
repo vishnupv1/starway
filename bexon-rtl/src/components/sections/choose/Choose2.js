@@ -11,7 +11,7 @@ const Choose2 = () => {
 								Choose the Best
 							</span>
 							<h2 className="sec-title title-anim">
-								Empowering Business with Expertise.
+								Empowering Brands with Performance-Driven Solutions.
 							</h2>
 						</div>
 					</div>
@@ -20,22 +20,122 @@ const Choose2 = () => {
 					<div className="col-md-6 col-lg-4">
 						<div className="choose-box customers-box h9-choose-box right-swipe">
 							<h4 className="title">
-								Providing the Our Best Business Solution Ever.
+								Providing performance-driven digital marketing solutions.
 							</h4>
 							<div className="customers-inner">
 								<div className="customers">
 									<ul>
 										<li className="wow fadeInLeft" data-wow-delay=".5s">
-											<img src="/images/testimonial/client-1.webp" alt="" />
+											<div className="avatar" style={{
+												width: '50px',
+												height: '50px',
+												borderRadius: '50%',
+												backgroundColor: '#6366f1',
+												display: 'flex',
+												alignItems: 'center',
+												justifyContent: 'center',
+												color: '#fff',
+												fontWeight: '600',
+												fontSize: '18px'
+											}}>JD</div>
 										</li>
 										<li className="wow fadeInLeft" data-wow-delay=".6s">
-											<img src="/images/testimonial/client-2.webp" alt="" />
+											<div className="avatar" style={{
+												width: '50px',
+												height: '50px',
+												borderRadius: '50%',
+												backgroundColor: '#8b5cf6',
+												display: 'flex',
+												alignItems: 'center',
+												justifyContent: 'center',
+												color: '#fff',
+												fontWeight: '600',
+												fontSize: '18px'
+											}}>SM</div>
 										</li>
 										<li className="wow fadeInLeft" data-wow-delay=".7s">
-											<img src="/images/testimonial/client-3.webp" alt="" />
+											<div className="avatar" style={{
+												width: '50px',
+												height: '50px',
+												borderRadius: '50%',
+												backgroundColor: '#ec4899',
+												display: 'flex',
+												alignItems: 'center',
+												justifyContent: 'center',
+												color: '#fff',
+												fontWeight: '600',
+												fontSize: '18px'
+											}}>AR</div>
 										</li>
 										<li className="wow fadeInLeft" data-wow-delay=".8s">
-											<img src="/images/testimonial/client-4.webp" alt="" />
+											<div className="avatar" style={{
+												width: '50px',
+												height: '50px',
+												borderRadius: '50%',
+												backgroundColor: '#f59e0b',
+												display: 'flex',
+												alignItems: 'center',
+												justifyContent: 'center',
+												color: '#fff',
+												fontWeight: '600',
+												fontSize: '18px'
+											}}>KL</div>
+										</li>
+										<li className="wow fadeInLeft" data-wow-delay=".9s">
+											<div className="avatar" style={{
+												width: '50px',
+												height: '50px',
+												borderRadius: '50%',
+												backgroundColor: '#10b981',
+												display: 'flex',
+												alignItems: 'center',
+												justifyContent: 'center',
+												color: '#fff',
+												fontWeight: '600',
+												fontSize: '18px'
+											}}>MR</div>
+										</li>
+										<li className="wow fadeInLeft" data-wow-delay="1s">
+											<div className="avatar" style={{
+												width: '50px',
+												height: '50px',
+												borderRadius: '50%',
+												backgroundColor: '#3b82f6',
+												display: 'flex',
+												alignItems: 'center',
+												justifyContent: 'center',
+												color: '#fff',
+												fontWeight: '600',
+												fontSize: '18px'
+											}}>TS</div>
+										</li>
+										<li className="wow fadeInLeft" data-wow-delay="1.1s">
+											<div className="avatar" style={{
+												width: '50px',
+												height: '50px',
+												borderRadius: '50%',
+												backgroundColor: '#ef4444',
+												display: 'flex',
+												alignItems: 'center',
+												justifyContent: 'center',
+												color: '#fff',
+												fontWeight: '600',
+												fontSize: '18px'
+											}}>AW</div>
+										</li>
+										<li className="wow fadeInLeft" data-wow-delay="1.2s">
+											<div className="avatar" style={{
+												width: '50px',
+												height: '50px',
+												borderRadius: '50%',
+												backgroundColor: '#14b8a6',
+												display: 'flex',
+												alignItems: 'center',
+												justifyContent: 'center',
+												color: '#fff',
+												fontWeight: '600',
+												fontSize: '18px'
+											}}>DP</div>
 										</li>
 									</ul>
 								</div>
@@ -71,7 +171,7 @@ const Choose2 = () => {
 						<div
 							className="choose-box h9-choose-box h9-choose-bg right-swipe"
 							style={{
-								backgroundImage: "url('/images/choose/h9-choose-bg.webp')",
+								backgroundImage: "url('/images/hero/contact.png')",
 							}}
 						>
 							<div className="choose-content">

@@ -5,20 +5,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const MarqueeSlider2 = ({ type }) => {
 	const items = [
-		"Innovation",
-		"Success",
-		"Leadership",
-		"Enterprise",
-		"Business Growth",
-		"Corporate",
-		"Results",
-		"Innovation",
-		"Success",
-		"Leadership",
-		"Enterprise",
-		"Business Growth",
-		"Corporate",
-		"Results",
+		"SEO",
+		"Social Media",
+		"PPC Advertising",
+		"Content Marketing",
+		"Web Design",
+		"Brand Strategy",
+		"Email Marketing",
+		"Analytics",
+		"Conversion Optimization",
+		"Digital Strategy",
+		"SEO",
+		"Social Media",
+		"PPC Advertising",
+		"Content Marketing",
 	];
 
 	return (

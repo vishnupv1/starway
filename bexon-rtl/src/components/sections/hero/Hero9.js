@@ -61,7 +61,7 @@ const Hero9 = () => {
 						className="h9-hero-img  img-parallax wow fadeInUp"
 						data-wow-delay="0.9s"
 					>
-						<img src="/images/hero/h9-hero-img.webp" alt="" />
+						<img src="/images/hero/pro_home.png" alt="" />
 					</div>
 				</div>
 			</div>
@@ -71,7 +71,7 @@ const Hero9 = () => {
 			>
 				<img
 					className="tj-anim-move-var-big"
-					src="/images/shape/h7-hero-blur-1.png"
+					src="/images/hero/bubble.png"
 					alt=""
 				/>
 			</div>
@@ -81,7 +81,7 @@ const Hero9 = () => {
 			>
 				<img
 					className="tj-anim-move-var-big-reverse"
-					src="/images/shape/h7-hero-blur-2.png"
+					src="/images/hero/bubble.png"
 					alt=""
 				/>
 			</div>

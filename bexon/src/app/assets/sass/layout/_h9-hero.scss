@@ -15,6 +15,15 @@ START: Hero CSS
 	}
 	&-inner {
 		background: var(--tj-color-theme-dark);
+		transition: background-color 0.3s ease;
+
+		&--dark {
+			background: var(--tj-color-theme-dark);
+		}
+
+		&--light {
+			background: var(--tj-color-common-white);
+		}
 	}
 	&-bg-image {
 		background-position: center;
@@ -23,7 +32,9 @@ START: Hero CSS
 		width: 100%;
 		height: 100%;
 		position: absolute;
-		mix-blend-mode: Luminosity;
+		// Was using luminosity which made the image look dull.
+		// Use normal blend so colors stay vibrant.
+		mix-blend-mode: normal;
 	}
 	&-item {
 		min-height: 92.5vh;
@@ -37,11 +48,12 @@ START: Hero CSS
 			width: 100%;
 			height: 100%;
 			z-index: 2;
+			// Soften the dark overlay to keep the hero brighter.
 			background: linear-gradient(
 				90deg,
-				rgba(12, 30, 33, 1) 20%,
-				rgba(12, 30, 33, 0.4) 60%,
-				rgba(12, 30, 33, 0.1) 100%
+				rgba(12, 30, 33, 0.7) 18%,
+				rgba(12, 30, 33, 0.25) 55%,
+				rgba(12, 30, 33, 0.05) 100%
 			);
 		}
 		&-wrapper {
@@ -90,6 +102,9 @@ START: Hero CSS
 					border-radius: 100px;
 					border: 18px solid var(--tj-color-theme-primary);
 					position: relative;
+					cursor: pointer;
+					transition: border-color 0.3s ease, background-color 0.3s ease;
+
 					&::before {
 						content: "";
 						width: 66px;
@@ -100,6 +115,8 @@ START: Hero CSS
 						top: 50%;
 						inset-inline-end: 10px;
 						transform: translateY(-50%);
+						transition: inset-inline-start 0.3s ease, inset-inline-end 0.3s ease,
+							background-color 0.3s ease;
 						// animation: moving 3s linear infinite;
 						@media #{$xxxl,$xxl} {
 							width: 55px;
@@ -174,6 +191,24 @@ START: Hero CSS
 				}
 				@media #{$sm,$xs} {
 					font-size: 60px;
+				}
+			}
+		}
+
+		// switch visual states based on light / dark hero
+		.h9-hero-inner--light & {
+			.h9-hero-title {
+				color: var(--tj-color-heading);
+
+				span {
+					border-color: var(--tj-color-border-2);
+					background-color: rgba(0, 0, 0, 0.02);
+
+					&::before {
+						inset-inline-start: 10px;
+						inset-inline-end: auto;
+						background-color: var(--tj-color-theme-primary);
+					}
 				}
 			}
 		}

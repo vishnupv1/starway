@@ -17,9 +17,9 @@ const About8 = () => {
 								className="sec-title title-highlight wow fadeInUp"
 								data-wow-delay=".3s"
 							>
-								<span>Our Stories</span> on Begins Passion Driven by Purpose,
-								and Fueled by a Relentless Pursuit of Results and Client Real
-								Success.
+								<span>Our Story</span> Begins with Passion Driven by Purpose,
+								and Fueled by a Relentless Pursuit of Excellence and Real
+								Client Success.
 							</h2>
 						</div>
 						<div className="h9-about-area">
@@ -30,7 +30,7 @@ const About8 = () => {
 								<div className="about-img overflow-hidden">
 									<img
 										data-speed=".8"
-										src="/images/about/h9-about.webp"
+										src="/images/about/growth.png"
 										alt=""
 									/>
 								</div>
@@ -39,36 +39,38 @@ const About8 = () => {
 										className="author-info wow fadeInUp"
 										data-wow-delay=".3s"
 									>
-										<h4 className="title">Eade Marren</h4>
-										<span className="designation">CEO & Founder</span>
+										<h4 className="title">Dedicatedly</h4>
+										<span className="designation">Delivering exceptional experiences</span>
 									</div>
 								</div>
 							</div>
 							<div className="h9-about-content">
-								<p className="desc wow fadeInUp" data-wow-delay=".4s">
-									Recognize that exceptional customer experiences are at the
-									heart of every successful business. Our Customer Experience
-									Solutions are crafted to help you transform every interaction
-									your customers have with your brand busin into a meaningful
-									and positive experience. We believe that understanding the
-									customer.
-								</p>
+							<p className="desc wow fadeInUp" data-wow-delay=".4s">
+								We recognize that exceptional customer experiences are at the
+								heart of every successful business. Our Customer Experience
+								Solutions are crafted to help you transform every interaction
+								your customers have with your brand into a meaningful and
+								positive experience. We believe that understanding the customer
+								journey and delivering personalized, seamless experiences can
+								significantly enhance customer loyalty, satisfaction, and
+								business growth.
+							</p>
 								<div
 									className="h9-about-funfact wow fadeInUp"
 									data-wow-delay=".6s"
 								>
-									<div className="countup-item">
-										<FunfactSingle currentValue={20} symbol={"M"} />
-										<span className="count-text">
-											Reach Worldwide empower dreams everywhere.
-										</span>
-									</div>
-									<div className="countup-item">
-										<FunfactSingle currentValue={8.5} symbol={"X"} />
-										<span className="count-text">
-											Faster Growth starts smart solutions today.
-										</span>
-									</div>
+								<div className="countup-item">
+									<FunfactSingle currentValue={20} symbol={"M"} />
+									<span className="count-text">
+										Customers Served Worldwide with exceptional experiences.
+									</span>
+								</div>
+								<div className="countup-item">
+									<FunfactSingle currentValue={8.5} symbol={"X"} />
+									<span className="count-text">
+										Average Customer Satisfaction improvement rate.
+									</span>
+								</div>
 								</div>
 								<div
 									className="about-btn-area-2 wow fadeInUp"

@@ -1,0 +1,12 @@
+{
+	"watch": ["src", "public", "next.config.js"],
+	"ext": "js,jsx,ts,tsx,json,scss,css,svg,png,jpg,jpeg,webp",
+	"ignore": [
+		"node_modules",
+		".next",
+		"*.log",
+		"*.md"
+	],
+	"exec": "npm run build",
+	"delay": 1000
+}

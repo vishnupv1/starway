@@ -58,7 +58,7 @@
 				"id": 9,
 				"name": "Home - 09",
 				"img": "/images/header/demo/home-9.webp",
-				"path": "/home-09",
+				"path": "/",
 				"badge": "New"
 			},
 			{
@@ -235,37 +235,37 @@
 		"submenu": [
 			{
 				"id": 1,
-				"name": "Business Strategy Development",
+				"name": "SEO Services",
 				"icon": "tji-service-1",
 				"path": "/services/1"
 			},
 			{
 				"id": 2,
-				"name": "Customer Experience Solutions",
+				"name": "Social Media Marketing",
 				"icon": "tji-service-2",
 				"path": "/services/2"
 			},
 			{
 				"id": 3,
-				"name": "Sustainability and ESG Consulting",
+				"name": "PPC Advertising",
 				"icon": "tji-service-3",
 				"path": "/services/3"
 			},
 			{
 				"id": 4,
-				"name": "Training and Development Programs",
+				"name": "Content Marketing",
 				"icon": "tji-service-4",
 				"path": "/services/4"
 			},
 			{
 				"id": 5,
-				"name": "IT Support & Maintenance",
+				"name": "Web Design & Development",
 				"icon": "tji-service-5",
 				"path": "/services/5"
 			},
 			{
 				"id": 6,
-				"name": "Marketing Strategy & Campaigns",
+				"name": "Email Marketing",
 				"icon": "tji-service-6",
 				"path": "/services/6"
 			}
