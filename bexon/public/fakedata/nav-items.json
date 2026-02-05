@@ -149,7 +149,7 @@
 					},
 					{
 						"id": 6,
-						"name": "Blog grid",
+						"name": "Blogs",
 						"path": "/blog-grid",
 						"badge": "NEW"
 					},
@@ -291,33 +291,7 @@
 	{
 		"id": 5,
 		"name": "Blog",
-		"path": "/blogs",
-		"submenu": [
-			{
-				"id": 1,
-				"name": "Blog",
-				"path": "/blogs",
-				"badge": "NEW"
-			},
-			{
-				"id": 2,
-				"name": "Blog grid",
-				"path": "/blog-grid",
-				"badge": null
-			},
-			{
-				"id": 3,
-				"name": "Blog with sidebar",
-				"path": "/blog-sidebar",
-				"badge": null
-			},
-			{
-				"id": 4,
-				"name": "Blog details",
-				"path": "/blogs/1",
-				"badge": null
-			}
-		]
+		"path": "/blog-grid"
 	},
 	{
 		"id": 6,

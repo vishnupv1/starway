@@ -159,23 +159,29 @@ const MobileNavbar = () => {
 									  ))
 									: ""}
 							</MobileMenuItem>
-							<MobileMenuItem
-								text={blogNav?.name}
-								url={blogNav?.path ? blogNav?.path : "#"}
-							>
-								{blogNav?.submenu?.length
-									? blogNav?.submenu?.map((item, idx) => (
-											<li
-												key={idx}
-												className={item?.isActive ? "current-menu-item" : ""}
-											>
-												<Link href={item?.path ? item?.path : "/portfolios"}>
-													{item?.name ? item?.name : "Portfolio"}
-												</Link>
-											</li>
-									  ))
-									: ""}
-							</MobileMenuItem>
+							{blogNav?.submenu?.length ? (
+								<MobileMenuItem
+									text={blogNav?.name}
+									url={blogNav?.path ? blogNav?.path : "#"}
+								>
+									{blogNav?.submenu?.map((item, idx) => (
+										<li
+											key={idx}
+											className={item?.isActive ? "current-menu-item" : ""}
+										>
+											<Link href={item?.path ? item?.path : "/portfolios"}>
+												{item?.name ? item?.name : "Portfolio"}
+											</Link>
+										</li>
+									))}
+								</MobileMenuItem>
+							) : (
+								<li>
+									<Link href={blogNav?.path ? blogNav?.path : "#"}>
+										{blogNav?.name}
+									</Link>
+								</li>
+							)}
 							<li className="mean-last">
 								<Link href={contactNav?.path ? contactNav?.path : "#"}>
 									{" "}
