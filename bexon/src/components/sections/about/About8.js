@@ -17,9 +17,9 @@ const About8 = () => {
 								className="sec-title title-highlight wow fadeInUp"
 								data-wow-delay=".3s"
 							>
-								<span>Our Story</span> Begins with Passion Driven by Purpose,
-								and Fueled by a Relentless Pursuit of Excellence and Real
-								Client Success.
+								<span>Our Story</span> Begins with Data Driven Strategies,
+								Powered by SEO Excellence, and Fueled by Performance Marketing
+								and Measurable ROI Results.
 							</h2>
 						</div>
 						<div className="h9-about-area">
@@ -45,15 +45,15 @@ const About8 = () => {
 								</div>
 							</div>
 							<div className="h9-about-content">
-							<p className="desc wow fadeInUp" data-wow-delay=".4s">
-								We recognize that exceptional customer experiences are at the
-								heart of every successful business. Our Customer Experience
-								Solutions are crafted to help you transform every interaction
-								your customers have with your brand into a meaningful and
-								positive experience. We believe that understanding the customer
-								journey and delivering personalized, seamless experiences can
-								significantly enhance customer loyalty, satisfaction, and
-								business growth.
+							<p className="desc wow fadeInUp" data-wow-delay=".4s" style={{ textAlign: 'left' }}>
+								We recognize that exceptional digital marketing strategies are at the
+								heart of every successful online business. Our Digital Marketing
+								Solutions are crafted to help you transform your online presence
+								through comprehensive SEO optimization, targeted PPC campaigns,
+								and strategic content marketing. We believe that understanding your
+								audience journey and delivering data-driven, conversion-focused
+								strategies can significantly enhance brand visibility, lead generation,
+								and measurable business growth.
 							</p>
 								<div
 									className="h9-about-funfact wow fadeInUp"

@@ -22,7 +22,7 @@ START: Home 9 About CSS
 		width: 58%;
 		span {
 			color: inherit;
-			padding-inline-start: 105px;
+			// padding-inline-start: 105px;
 			@media #{$lg} {
 				padding-inline-start: 80px;
 			}
