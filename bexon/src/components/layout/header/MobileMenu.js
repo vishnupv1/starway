@@ -39,13 +39,13 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 								<div className="contact-item">
 									<span className="subtitle">Phone</span>
 									<Link className="contact-link" href="tel:8089091313">
-										808-909-1313
+										+971585993858
 									</Link>
 								</div>
 								<div className="contact-item">
 									<span className="subtitle">Email</span>
-									<Link className="contact-link" href="mailto:">
-										
+									<Link className="contact-link" href="mailto:starwaylinkservices@gmail.com">
+										starwaylinkservices@gmail.com
 									</Link>
 								</div>
 								<div className="contact-item">

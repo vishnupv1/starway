@@ -8,13 +8,25 @@ const CareerDetails1 = ({ currentItemId }) => {
 	const currentId = currentItemId;
 	const { prevId, nextId, currentItem, isPrevItem, isNextItem } =
 		getPreviousNextItem(items, currentId);
-	const { title, iconName, category, need, location } = currentItem || {};
+	const { 
+		title, 
+		iconName, 
+		category, 
+		need, 
+		location, 
+		price,
+		jobDescription = [],
+		requirements = {},
+		responsibilities = {},
+		jobInformation = {},
+		tags = []
+	} = currentItem || {};
 
 	return (
 		<section className="tj-careers-details section-gap">
 			<div className="container">
 				<div className="row rg-50">
-					<div className="col-lg-8">
+					<div className="col-lg-7">
 						<div className="tj-post-wrapper">
 							<div className="tj-post-single-post">
 								{/* <!-- top content --> */}
@@ -36,108 +48,78 @@ const CareerDetails1 = ({ currentItemId }) => {
 								{/* <!-- content --> */}
 								<div className="tj-entry-content">
 									<h4 className="text-anim">Job Description</h4>
-									<p className="wow fadeInUp" data-wow-delay="0.1s">
-										Our mission is to empowers businesses size to thrive in an
-										businesses ever changing marketplace. We are committed to
-										the delivering exceptionals the value through strategic
-										inset, innovative approaches. Our consulting of our missing
-										empower businesses of all sizes to thrive. Committed to the
-										delivering exceptional in the values through our strategic
-										inset, i approaches empower. Our mission is to empowers
-										businesses
-									</p>
-									<p className="wow fadeInUp" data-wow-delay="0.3s">
-										Our mission is to empowers businesses size to thrive in an
-										businesses ever changing marketplace. We are committed to
-										the delivering exceptionals the value through strategic
-										inset
-									</p>
+									{jobDescription && jobDescription.length > 0 ? (
+										jobDescription.map((desc, idx) => (
+											<p 
+												key={idx} 
+												className="wow fadeInUp" 
+												data-wow-delay={`${(idx + 1) * 0.2}s`}
+											>
+												{desc}
+											</p>
+										))
+									) : (
+										<>
+											<p className="wow fadeInUp" data-wow-delay="0.1s">
+												Our mission is to empowers businesses size to thrive in an
+												businesses ever changing marketplace. We are committed to
+												the delivering exceptionals the value through strategic
+												inset, innovative approaches. Our consulting of our missing
+												empower businesses of all sizes to thrive. Committed to the
+												delivering exceptional in the values through our strategic
+												inset, i approaches empower. Our mission is to empowers
+												businesses
+											</p>
+											<p className="wow fadeInUp" data-wow-delay="0.3s">
+												Our mission is to empowers businesses size to thrive in an
+												businesses ever changing marketplace. We are committed to
+												the delivering exceptionals the value through strategic
+												inset
+											</p>
+										</>
+									)}
 									<div className="tj-check-list">
 										<h4 className="text-anim">Requirements</h4>
-										<p className="wow fadeInUp" data-wow-delay="0.1s">
-											Formulating and implementing business goals. We begin with
-											an in-depth analysis of your business and market to
-											identify opportunities and challenges. From there, we work
-											with you to define clear, actionable.
-										</p>
+										{requirements?.description && (
+											<p className="wow fadeInUp" data-wow-delay="0.1s">
+												{requirements.description}
+											</p>
+										)}
 									</div>
-									<div
-										className="team-details__experience__list service-check-list mt-4 mb-4 wow fadeInUp"
-										data-wow-delay="0.3s"
-									>
-										<ul>
-											<li>
-												<i className="tji-check"></i>
-												<span>
-													Clear vision and direction for your business for
-													consultings.
-												</span>
-											</li>
-											<li>
-												<i className="tji-check"></i>
-												<span>
-													Enhanced ability to anticipate and respond to market
-													changes.
-												</span>
-											</li>
-											<li>
-												<i className="tji-check"></i>
-												<span>
-													Data-driven decision-making for strategic planning
-													execution.
-												</span>
-											</li>
-											<li>
-												<i className="tji-check"></i>
-												<span>
-													Structured approach to achieving your business goals.
-												</span>
-											</li>
-										</ul>
-									</div>
-									<p className="wow fadeInUp" data-wow-delay="0.3s">
-										Our mission is to empowers businesses size to thrive in an
-										businesses ever changing marketplace. We are committed to
-										the delivering exceptionals the value through strategic
-										inset, innovative approaches. Our consulting of our missing
-										empower businesses of all sizes to delivering delivering
-										exceptional.
-									</p>
+									{requirements?.items && requirements.items.length > 0 && (
+										<div
+											className="team-details__experience__list service-check-list mt-4 mb-4 wow fadeInUp"
+											data-wow-delay="0.3s"
+										>
+											<ul>
+												{requirements.items.map((item, idx) => (
+													<li key={idx}>
+														<i className="tji-check"></i>
+														<span>{item}</span>
+													</li>
+												))}
+											</ul>
+										</div>
+									)}
 									<div className="tj-check-list">
 										<h4 className="text-anim">Responsibilities</h4>
-										<p className="wow fadeInUp" data-wow-delay="0.1s">
-											Our mission is to empowers businesses size to thrive in an
-											businesses ever changing marketplace. We are committed to
-											the delivering exceptionals the value through strategic
-											inset. Committed to the delivering exceptional in the
-											values through our strategic inset, i approaches empower.
-										</p>
-										<ul className="wow fadeInUp" data-wow-delay="0.3s">
-											<li>
-												<span>
-													<i className="tji-check"></i>
-												</span>{" "}
-												Discover our expertise
-											</li>
-											<li>
-												<span>
-													<i className="tji-check"></i>
-												</span>{" "}
-												Journey and commitment to explained
-											</li>
-											<li>
-												<span>
-													<i className="tji-check"></i>
-												</span>{" "}
-												Meet our team and learn
-											</li>
-											<li>
-												<span>
-													<i className="tji-check"></i>
-												</span>{" "}
-												Meet our team
-											</li>
-										</ul>
+										{responsibilities?.description && (
+											<p className="wow fadeInUp" data-wow-delay="0.1s">
+												{responsibilities.description}
+											</p>
+										)}
+										{responsibilities?.items && responsibilities.items.length > 0 && (
+											<ul className="wow fadeInUp" data-wow-delay="0.3s">
+												{responsibilities.items.map((item, idx) => (
+													<li key={idx}>
+														<span>
+															<i className="tji-check"></i>
+														</span>{" "}
+														{item}
+													</li>
+												))}
+											</ul>
+										)}
 									</div>
 								</div>
 								{/* <!-- post tag and share --> */}
@@ -147,9 +129,19 @@ const CareerDetails1 = ({ currentItemId }) => {
 								>
 									<div className="tagcloud">
 										<span>Tags:</span>
-										<Link href="/careers">Business</Link>
-										<Link href="/careers">Consulting</Link>
-										<Link href="#/careers">Insights</Link>
+										{tags && tags.length > 0 ? (
+											tags.map((tag, idx) => (
+												<Link key={idx} href="/careers">
+													{tag}
+												</Link>
+											))
+										) : (
+											<>
+												<Link href="/careers">Business</Link>
+												<Link href="/careers">Consulting</Link>
+												<Link href="#/careers">Insights</Link>
+											</>
+										)}
 									</div>
 									<div className="post-share">
 										<ul>
@@ -225,7 +217,7 @@ const CareerDetails1 = ({ currentItemId }) => {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-4">
+					<div className="col-lg-5">
 						<aside className="tj-blog-sidebar">
 							{/* <!-- Job information  --> */}
 							<div
@@ -237,32 +229,42 @@ const CareerDetails1 = ({ currentItemId }) => {
 									<ul>
 										<li>
 											<span className="first-child">Category</span>
-											<span>Business Consultant</span>
+											<span>{jobInformation?.category || category || "N/A"}</span>
 										</li>
-										<li>
-											<span className="first-child">Number</span>
-											<span>8080UO</span>
-										</li>
-										<li>
-											<span className="first-child">Company</span>
-											<span>Bexon</span>
-										</li>
-										<li>
-											<span className="first-child">Website</span>
-											<span>www.example.com</span>
-										</li>
+										{jobInformation?.number && (
+											<li>
+												<span className="first-child">Number</span>
+												<span>{jobInformation.number}</span>
+											</li>
+										)}
+										{jobInformation?.company && (
+											<li>
+												<span className="first-child">Company</span>
+												<span>{jobInformation.company}</span>
+											</li>
+										)}
+										{jobInformation?.website && (
+											<li>
+												<span className="first-child">Website</span>
+												<span>{jobInformation.website}</span>
+											</li>
+										)}
 										<li>
 											<span className="first-child">Salary</span>
-											<span>$400-$550 / week</span>
+											<span>{jobInformation?.salary || price || "Not disclosed"}</span>
 										</li>
-										<li>
-											<span className="first-child">Vacancy</span>
-											<span>03 Available</span>
-										</li>
-										<li>
-											<span className="first-child">Apply on</span>
-											<span>OCT 22, 2024</span>
-										</li>
+										{jobInformation?.vacancy && (
+											<li>
+												<span className="first-child">Vacancy</span>
+												<span>{jobInformation.vacancy}</span>
+											</li>
+										)}
+										{jobInformation?.applyOn && (
+											<li>
+												<span className="first-child">Apply on</span>
+												<span>{jobInformation.applyOn}</span>
+											</li>
+										)}
 									</ul>
 								</div>
 							</div>

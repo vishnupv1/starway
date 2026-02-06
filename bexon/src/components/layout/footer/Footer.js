@@ -19,14 +19,14 @@ const Footer = () => {
 										satisfaction & loyalty of our expansion.
 									</p>
 								</div>
-								<div className="award-logo-area">
+								{/* <div className="award-logo-area">
 									<div className="award-logo">
 										<img src="/images/footer/award-logo-1.webp" alt="" />
 									</div>
 									<div className="award-logo">
 										<img src="/images/footer/award-logo-2.webp" alt="" />
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="col-xl-3 col-lg-4 col-md-6">
@@ -133,11 +133,11 @@ const Footer = () => {
 											</Link>
 										</li>
 										<li>
-											<Link href="mailto:">
+											<Link href="mailto:starwaylinkservices@gmail.com">
 												<span className="icon">
 													<i className="tji-envelop-2"></i>
 												</span>
-												<span className="text"></span>
+												<span className="text">starwaylinkservices@gmail.com</span>
 											</Link>
 										</li>
 									</ul>

@@ -1,82 +1,112 @@
 [
 	{
 		"id": 1,
-		"title": "Business Strategy Consultant",
-		"iconName": "tji-strategy",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
+		"title": "Videographer at UAE",
+		"iconName": "tji-service-1",
+		"price": "Not disclosed",
+		"location": "UAE",
 		"category": "Full time job/on site",
-		"need": "Urgent"
+		"need": "Urgent",
+		"jobDescription": [
+			"We are seeking a talented and creative Videographer to join our team in the UAE. The ideal candidate will be responsible for capturing, editing, and producing high-quality video content for various projects including corporate videos, promotional content, social media campaigns, and event coverage. You will work closely with our creative team to bring visual stories to life and help our clients communicate their message effectively through compelling video content.",
+			"The successful candidate will have a strong portfolio demonstrating expertise in video production, post-production editing, and a keen eye for visual storytelling. You should be comfortable working in diverse environments, managing multiple projects simultaneously, and meeting tight deadlines while maintaining the highest quality standards."
+		],
+		"requirements": {
+			"description": "We are looking for a professional videographer with proven experience in video production and editing. The ideal candidate should possess strong technical skills, creativity, and the ability to work independently as well as part of a team.",
+			"items": [
+				"Minimum 2-3 years of professional videography experience",
+				"Proficiency in video editing software (Adobe Premiere Pro, Final Cut Pro, or DaVinci Resolve)",
+				"Strong portfolio demonstrating creative and technical video production skills",
+				"Experience with camera equipment, lighting, and audio recording",
+				"Knowledge of color grading and post-production techniques",
+				"Excellent communication and collaboration skills",
+				"Ability to work under pressure and meet tight deadlines",
+				"Valid UAE work permit or eligibility to work in UAE"
+			]
+		},
+		"responsibilities": {
+			"description": "As a Videographer, you will be responsible for the entire video production process from concept to final delivery. You will work on diverse projects and collaborate with clients and team members to create engaging video content.",
+			"items": [
+				"Plan, shoot, and edit video content for various projects and clients",
+				"Operate professional video cameras, lighting equipment, and audio recording devices",
+				"Edit and post-produce videos including color correction, sound mixing, and graphics",
+				"Collaborate with creative team and clients to understand project requirements",
+				"Manage video equipment inventory and ensure proper maintenance",
+				"Attend client meetings and location scouting as needed",
+				"Stay updated with latest video production trends and technologies",
+				"Ensure all deliverables meet quality standards and client expectations"
+			]
+		},
+		"jobInformation": {
+			"category": "Full time job/on site",
+			"number": "VID-UAE-001",
+			"company": "Starwaylink Services LLC",
+			"website": "www.starwaylinkservices.com",
+			"salary": "Not disclosed",
+			"vacancy": "01 Available",
+			"applyOn": "Open until filled"
+		},
+		"tags": [
+			"Videography",
+			"Video Production",
+			"Creative",
+			"UAE"
+		]
 	},
 	{
 		"id": 2,
-		"title": "Management Consultant",
-		"iconName": "tji-manage",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
+		"title": "Social Media Influencer",
+		"iconName": "tji-service-2",
+		"price": "Not disclosed",
+		"location": "UAE",
 		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 3,
-		"title": "Business Process Consultant",
-		"iconName": "tji-process-1",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 4,
-		"title": "Operations Consultant",
-		"iconName": "tji-operations",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 5,
-		"title": "Organizational Development",
-		"iconName": "tji-organize",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 6,
-		"title": "Performance Optimization",
-		"iconName": "tji-performance",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 7,
-		"title": "Management Consultant",
-		"iconName": "tji-manage",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 8,
-		"title": "Business Process Consultant",
-		"iconName": "tji-process-1",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
+		"need": "Urgent",
+		"jobDescription": [
+			"We are looking for a dynamic and creative Social Media Influencer to join our team in the UAE. The ideal candidate will be responsible for creating engaging content, building a strong online presence, and promoting our brand across various social media platforms including Instagram, TikTok, YouTube, Facebook, and Twitter. You will work closely with our marketing team to develop content strategies, engage with our audience, and drive brand awareness and growth.",
+			"The successful candidate should have a proven track record of growing social media followings, creating viral content, and collaborating with brands. You should be passionate about social media trends, have excellent communication skills, and be able to create authentic, engaging content that resonates with target audiences."
+		],
+		"requirements": {
+			"description": "We are seeking a talented social media influencer with a strong online presence and proven ability to create engaging content. The ideal candidate should have experience in content creation, brand partnerships, and audience engagement.",
+			"items": [
+				"Minimum 1-2 years of experience as a social media influencer or content creator",
+				"Strong following on at least one major social media platform (Instagram, TikTok, YouTube, etc.)",
+				"Proven ability to create engaging, high-quality content (photos, videos, stories, reels)",
+				"Excellent understanding of social media algorithms and best practices",
+				"Experience with content creation tools and editing software",
+				"Strong communication and interpersonal skills",
+				"Ability to work independently and meet content deadlines",
+				"Valid UAE work permit or eligibility to work in UAE",
+				"Knowledge of current social media trends and platforms"
+			]
+		},
+		"responsibilities": {
+			"description": "As a Social Media Influencer, you will be responsible for creating and sharing content that promotes our brand, engages our audience, and drives business growth. You will collaborate with our marketing team to develop content strategies and ensure brand consistency across all platforms.",
+			"items": [
+				"Create and publish engaging content across multiple social media platforms",
+				"Develop content calendars and maintain consistent posting schedules",
+				"Engage with followers, respond to comments, and build community",
+				"Collaborate with marketing team on campaign strategies and content ideas",
+				"Attend brand events, photoshoots, and promotional activities",
+				"Monitor social media analytics and provide insights on content performance",
+				"Stay updated with latest social media trends and platform updates",
+				"Maintain brand voice and ensure all content aligns with company values"
+			]
+		},
+		"jobInformation": {
+			"category": "Full time job/on site",
+			"number": "SMI-UAE-001",
+			"company": "Starwaylink Services LLC",
+			"website": "www.starwaylinkservices.com",
+			"salary": "Not disclosed",
+			"vacancy": "01 Available",
+			"applyOn": "Open until filled"
+		},
+		"tags": [
+			"Social Media",
+			"Influencer",
+			"Content Creator",
+			"UAE",
+			"Marketing"
+		]
 	}
 ]

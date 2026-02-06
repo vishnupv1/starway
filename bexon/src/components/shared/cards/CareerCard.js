@@ -20,7 +20,7 @@ const CareerCard = ({ careerSingle, idx }) => {
 				<Link href={`/careers/${id}`}>{title}</Link>
 			</h4>
 			<div className="tj-careers-salary">
-				<span>{price}</span> / {duration}
+				<span>Renumeration: {price}</span>
 			</div>
 			<div className="tj-careers-bottom">
 				<span className="location">
