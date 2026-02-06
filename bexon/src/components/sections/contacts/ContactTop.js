@@ -1,6 +1,31 @@
+"use client";
 import Link from "next/link";
+import { useState, useEffect } from "react";
+import ContactFormModal from "@/components/shared/modals/ContactFormModal";
 
 const ContactTop = () => {
+	const [isModalOpen, setIsModalOpen] = useState(false);
+
+	useEffect(() => {
+		if (isModalOpen) {
+			document.body.classList.add("is-modal-opened");
+		} else {
+			document.body.classList.remove("is-modal-opened");
+		}
+		return () => {
+			document.body.classList.remove("is-modal-opened");
+		};
+	}, [isModalOpen]);
+
+	const handleOpenModal = (e) => {
+		e.preventDefault();
+		setIsModalOpen(true);
+	};
+
+	const handleCloseModal = () => {
+		setIsModalOpen(false);
+	};
+
 	return (
 		<div className="tj-contact-area section-gap">
 			<div className="container">
@@ -81,13 +106,14 @@ const ContactTop = () => {
 									</Link>
 								</li>
 								<li className="active">
-									<Link href="/contact">Need help?</Link>
+									<Link href="/contact" onClick={handleOpenModal}>Need help?</Link>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
+			<ContactFormModal isOpen={isModalOpen} onClose={handleCloseModal} />
 		</div>
 	);
 };
