@@ -14,7 +14,7 @@ const Services9 = () => {
 								CHOOSE THE BEST
 							</span>
 							<h2 className="sec-title title-anim">
-								Scalable business services
+								Scalable digital marketing services
 							</h2>
 							<div
 								className="h9-service-more wow fadeInUp"
