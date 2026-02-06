@@ -287,12 +287,7 @@ const ServicesDetailsPrimary = ({ option }) => {
 											>
 												<div className="accordion-body faq-text">
 													<p>
-														Getting started is easy! Simply reach out to us
-														through our contact form or give us a call, and
-														we’ll schedule a consultation to discuss your
-														project and how we can best assist you. Our team
-														keeps you informed throughout the process, ensuring
-														quality control and timely delivery.
+														We personalize customer experiences through data-driven insights, behavioral analytics, and AI-powered segmentation. By analyzing customer interactions across all touchpoints—website visits, social media engagement, email responses, and purchase history—we create tailored content, recommendations, and communication strategies. Our approach ensures each customer receives relevant, timely, and meaningful interactions that resonate with their specific needs and preferences.
 													</p>
 												</div>
 											</div>
@@ -318,12 +313,7 @@ const ServicesDetailsPrimary = ({ option }) => {
 											>
 												<div className="accordion-body faq-text">
 													<p>
-														Getting started is easy! Simply reach out to us
-														through our contact form or give us a call, and
-														we’ll schedule a consultation to discuss your
-														project and how we can best assist you. Our team
-														keeps you informed throughout the process, ensuring
-														quality control and timely delivery.
+														We leverage cutting-edge tools including customer relationship management (CRM) systems, analytics platforms, marketing automation software, A/B testing tools, heat mapping and user behavior analytics, customer feedback platforms, and AI-powered chatbots. We also utilize SEO tools, social media management platforms, email marketing automation, and web analytics to create a comprehensive view of the customer journey and optimize every interaction point.
 													</p>
 												</div>
 											</div>
@@ -348,12 +338,7 @@ const ServicesDetailsPrimary = ({ option }) => {
 											>
 												<div className="accordion-body faq-text">
 													<p>
-														Getting started is easy! Simply reach out to us
-														through our contact form or give us a call, and
-														we’ll schedule a consultation to discuss your
-														project and how we can best assist you. Our team
-														keeps you informed throughout the process, ensuring
-														quality control and timely delivery.
+														We collect customer feedback through multiple channels including post-interaction surveys, Net Promoter Score (NPS) assessments, customer satisfaction (CSAT) surveys, social media monitoring, review platforms, email feedback forms, and in-app feedback tools. We also analyze customer behavior data, support ticket interactions, and social listening to gather comprehensive insights. This multi-channel approach ensures we capture both quantitative metrics and qualitative insights to continuously improve the customer experience.
 													</p>
 												</div>
 											</div>
@@ -378,12 +363,7 @@ const ServicesDetailsPrimary = ({ option }) => {
 											>
 												<div className="accordion-body faq-text">
 													<p>
-														Getting started is easy! Simply reach out to us
-														through our contact form or give us a call, and
-														we’ll schedule a consultation to discuss your
-														project and how we can best assist you. Our team
-														keeps you informed throughout the process, ensuring
-														quality control and timely delivery.
+														Absolutely! We help improve customer support systems by implementing efficient ticketing systems, training support teams on best practices, setting up AI-powered chatbots for instant responses, creating comprehensive knowledge bases, optimizing response times, and establishing clear escalation procedures. We also integrate support channels across email, phone, chat, and social media to provide seamless, consistent support experiences that enhance customer satisfaction and loyalty.
 													</p>
 												</div>
 											</div>
