@@ -15,10 +15,10 @@ const Footer10 = () => {
 								<Link
 									className="text-btn wow fadeInUp"
 									data-wow-delay=".3s"
-									href="mailto:hello@bexon.com"
+									href="mailto:hello@starwaylink.com"
 								>
 									<span className="btn-text">
-										<span>hello@bexon.com</span>
+										<span>hello@starwaylink.com</span>
 									</span>
 								</Link>
 								<div
@@ -177,7 +177,7 @@ const Footer10 = () => {
 											href="https://themeforest.net/user/theme-junction/portfolio"
 											target="_blank"
 										>
-											Bexon
+											Starwaylink
 										</Link>{" "}
 										All right reserved
 									</p>

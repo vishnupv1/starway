@@ -57,7 +57,7 @@ const Team1 = ({ type }) => {
 											type === 2 ? "title-anim" : "text-anim"
 										}`}
 									>
-										People Behind <span>Bexon.</span>
+										People Behind <span>Starwaylink.</span>
 									</h2>
 								)}
 							</div>

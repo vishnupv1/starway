@@ -178,7 +178,7 @@ const Footer5 = () => {
 											href="https://themeforest.net/user/theme-junction/portfolio"
 											target="_blank"
 										>
-											Bexon
+											Starwaylink
 										</Link>{" "}
 										All right reserved
 									</p>

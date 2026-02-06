@@ -5,12 +5,12 @@ import Link from "next/link";
 const Faq4 = () => {
 	const items = [
 		{
-			title: "What services does Bexon offer to clients?",
-			desc: "Bexon offers comprehensive digital marketing and customer experience solutions including SEO services, social media marketing, Google My Business optimization, content marketing, web design & development, and email marketing. We specialize in transforming customer interactions into meaningful experiences that drive loyalty, satisfaction, and sustainable growth for businesses worldwide.",
+			title: "What services does Starwaylink offer to clients?",
+			desc: "Starwaylink offers comprehensive digital marketing and customer experience solutions including SEO services, social media marketing, Google My Business optimization, content marketing, web design & development, and email marketing. We specialize in transforming customer interactions into meaningful experiences that drive loyalty, satisfaction, and sustainable growth for businesses worldwide.",
 			initActive: true,
 		},
 		{
-			title: "How do I get started with Bexon's services?",
+			title: "How do I get started with Starwaylink's services?",
 			desc: "Getting started is easy! Simply reach out to us through our contact form or give us a call, and we'll schedule a consultation to discuss your business goals, current challenges, and how our customer experience solutions can help. We'll analyze your needs and create a customized strategy tailored to your specific requirements.",
 			initActive: false,
 		},
